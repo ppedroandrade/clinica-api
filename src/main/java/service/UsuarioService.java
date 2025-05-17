@@ -1,7 +1,5 @@
 package service;
 
-public class UsuarioService package service;
-
 import model.Usuario;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -37,5 +35,4 @@ public class UsuarioService {
     public void deletar(Long id) {
         usuarioRepository.deleteById(id);
     }
-}{
 }

@@ -1,7 +1,5 @@
 package controller;
 
-public class UsuarioController package controller;
-
 import model.Usuario;
 import org.springframework.web.bind.annotation.*;
 import service.UsuarioService;
@@ -37,5 +35,4 @@ public class UsuarioController {
     public void deletar(@PathVariable Long id) {
         usuarioService.deletar(id);
     }
-}{
 }
